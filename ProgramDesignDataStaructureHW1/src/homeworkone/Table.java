@@ -9,9 +9,25 @@ public class Table {
 	
 	
 	//first node in the list
-	private Node First;
+	private Node first;
+	
 	
 	public boolean insert(String key, String value) {
+		//create a new node 
+		Node new_node = new Node(value);
+		new_node.first = null;
+		
+		/*if the Linked list is Empty,
+		 * then making the new node as head
+		 */
+		if (key.mark == null) {
+			key.mark =new_node;
+		}
+		else {
+			//traverse till last node and insert the new node
+			Node last
+		}
+		
 		
 	}
 	public String lookUp(String key) {
